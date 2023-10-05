@@ -9,7 +9,7 @@ Method: We developed a multi-window convolutional neural network model using pre
 Results: On curated benchmark datasets of DNA-binding proteins, our model achieves AUCs of 0.97, significantly outperforming previous sequence-based models as well as CNN and machine learning baselines. Multi-scale analysis of pre-trained embeddings enables effective representation of key protein binding properties directly from sequence.   
  
 Conclusion: This work demonstrates the utility of pre-trained language models and multi-window CNN architectures for improved prediction of DNA interacting residues from sequence. Our approach provides a promising new direction for characterization of protein-DNA binding mechanisms and interactions.   
-   
+<br>
 ![workflow](https://github.com/B1607/DIRP/blob/226a6de582f96e115c0fff30b3fd2fe4dce60ca7/other/Figure.jpg)
 ## Dataset <a name="Dataset"></a>
 
