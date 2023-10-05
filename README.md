@@ -1,7 +1,7 @@
 # Predicting DNA Interacting Residues in DNA-Binding Proteins from Amino Acid Sequences using Pre-trained Language Models and Multiple Window Scanning Convolutional Neural Networks
 
 
-## Abstract
+## Abstract <a name="abstract"></a>
 Background: Protein-DNA binding is essential for key cellular processes. Identifying DNA interacting residues from sequence remains challenging. Recent advances in pre-trained language models and deep learning provide new opportunities.   
 
 Method: We developed a multi-window convolutional neural network model using pre-trained protein language model embeddings as input features. The model scans across pre-trained 1024-dim contextual embeddings of each residue with parallel 1D convolutional layers having varying window sizes from 2-10 residues.    
@@ -10,7 +10,7 @@ Results: On curated benchmark datasets of DNA-binding proteins, our model achiev
  
 Conclusion: This work demonstrates the utility of pre-trained language models and multi-window CNN architectures for improved prediction of DNA interacting residues from sequence. Our approach provides a promising new direction for characterization of protein-DNA binding mechanisms and interactions.   
 
-## Dataset
+## Dataset <a name="Dataset"></a>
 | Dataset    | Protein Sequence | Total | Similarity < 30% | Training | Testing |
 |------------|------------------|-------|------------------|----------|---------|
 | HybridNAP  | 864              | 1172  | 692              | 646      | 46      |
@@ -61,3 +61,5 @@ Alternatively, utilize the Jupyter notebook:
 ```bash
 main.ipynb
 ```
+
+
