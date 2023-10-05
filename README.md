@@ -3,7 +3,7 @@
 # 1  
 Into the "data" folder and use FASTA file to generate other data feature to "dataset" folder  
 example:  
-        python get_Binary_Matrix.py -in "Your FASTA file folder" -out "The destination folder of your output"  
+        <p>python get_Binary_Matrix.py -in "Your FASTA file folder" -out "The destination folder of your output"</p>  
         python get_mmseqs2.py -in "Your FASTA file folder" -out "The destination folder of your output"  
         *Please change the path of your proteins sequence database  
         python get_ProtTrans.py -in "Your FASTA file folder" -out "The destination folder of your output"  
