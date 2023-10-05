@@ -1,7 +1,7 @@
 # Predicting DNA Interacting Residues in DNA-Binding Proteins from Amino Acid Sequences using Pre-trained Language Models and Multiple Window Scanning Convolutional Neural Networks
 
 
-# Abstract
+## Abstract
 Background: Protein-DNA binding is essential for key cellular processes. Identifying DNA interacting residues from sequence remains challenging. Recent advances in pre-trained language models and deep learning provide new opportunities.   
 
 Method: We developed a multi-window convolutional neural network model using pre-trained protein language model embeddings as input features. The model scans across pre-trained 1024-dim contextual embeddings of each residue with parallel 1D convolutional layers having varying window sizes from 2-10 residues.    
@@ -21,9 +21,9 @@ Example usage:
 ```bash
 python get_Binary_Matrix.py -in "Your FASTA file folder" -out "The destination folder of your output"
 python get_mmseqs2.py -in "Your FASTA file folder" -out "The destination folder of your output"
-"*Please change the path of your proteins sequence database"
 python get_ProtTrans.py -in "Your FASTA file folder" -out "The destination folder of your output"
 ```
+"Note: Ensure to update the path to your protein sequence database within get_mmseqs2.py as necessary."
 ### Step 2: Generate Dataset Using Data Features
 
 Transition to the dataset folder and utilize the data features to produce a dataset.
@@ -49,5 +49,4 @@ Alternatively, utilize the Jupyter notebook:
 ```bash
 main.ipynb
 ```
-
 
