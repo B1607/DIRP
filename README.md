@@ -10,6 +10,18 @@ Results: On curated benchmark datasets of DNA-binding proteins, our model achiev
  
 Conclusion: This work demonstrates the utility of pre-trained language models and multi-window CNN architectures for improved prediction of DNA interacting residues from sequence. Our approach provides a promising new direction for characterization of protein-DNA binding mechanisms and interactions.   
 
+## Dataset
+| Dataset    | Protein Sequence | Total | Similarity < 30% | Training | Testing |
+|------------|------------------|-------|------------------|----------|---------|
+| HybridNAP  | 864              | 1172  | 692              | 646      | 46      |
+| ProNA2020  | 308              |       |                  |          |         |
+
+| Dataset        | Protein Sequence | DNA Interacting Residues | Non-Interacting Residues |
+|----------------|------------------|--------------------------|--------------------------|
+| Training data  | 646              | 15636                    | 298503                   |
+| Testing data   | 46               | 965                      | 9911                     |
+| Total          | 692              | 16601                    | 308414                   |
+
 
 ## Quick start <a name="quickstart"></a>
 
@@ -49,4 +61,3 @@ Alternatively, utilize the Jupyter notebook:
 ```bash
 main.ipynb
 ```
-
