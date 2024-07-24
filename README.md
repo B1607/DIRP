@@ -32,7 +32,10 @@ We recommend using Anaconda to manage the project environment. You can create th
 ```bash
 conda env create -n MCNN_DNA_Pred -f environment.yml
 ```
-
+Activate the conda environment
+```bash
+conda activate MCNN_DNA_Pred
+```
 ### Step 2: Download the GitHub Repository and Dataset
 
 Clone the GitHub repository using the following command:
@@ -46,6 +49,8 @@ cd DIRP
 Download and extract the dataset:
 ```bash
 wget -O ./dataset/ProtTrans.zip http://140.138.155.214/~user4/DIRP/ProtTrans.zip
+```
+```bash
 unzip ./dataset/ProtTrans.zip
 ```
 ### Step 3: Start the Prediction !
@@ -53,4 +58,16 @@ unzip ./dataset/ProtTrans.zip
 Open the prediction program and enter your protein sequence:
 ```bash
 DNA_Prediction.ipynb
+```
+
+## Requirements <a name="requirement"></a>
+```bash
+h5py==3.11.0
+tqdm==4.66.4
+numpy==1.26.4
+scikit-learn==1.4.2
+tensorflow==2.10.1
+transformers==4.40.1
+torch==2.3.0+cu118
+fair-esm==2.0.0
 ```
