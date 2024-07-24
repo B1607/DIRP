@@ -1,5 +1,4 @@
-# Deciphering the Language of Protein-DNA Interactions:
-# A Deep Learning Approach Combining Contextual Embeddings and Multi-Scale Sequence Modeling
+# Deciphering the Language of Protein-DNA Interactions:<br> A Deep Learning Approach Combining Contextual Embeddings and Multi-Scale Sequence Modeling
 
 
 ## Abstract <a name="abstract"></a>
