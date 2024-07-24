@@ -21,44 +21,36 @@ Our work not only provides a robust computational tool for characterizing DNA-bi
 | Testing data   | 46               | 965                      | 9911                     |
 | Total          | 692              | 16601                    | 308414                   |
 
+## 
+
 
 ## Quick start <a name="quickstart"></a>
 
-### Step 1: Generate Data Features
+### Step 1: Environment Setup
 
-Navigate to the data folder and utilize the FASTA file to produce additional data features, saving them in the dataset folder.
-
-Example usage:
+We recommend using Anaconda to manage the project environment. You can create the necessary environment using the following command:
 ```bash
-python get_Binary_Matrix.py -in "Your FASTA file folder" -out "The destination folder of your output"
-python get_mmseqs2.py -in "Your FASTA file folder" -out "The destination folder of your output"
-python get_ProtTrans.py -in "Your FASTA file folder" -out "The destination folder of your output"
-```
-"Note: Ensure to update the path to your protein sequence database within get_mmseqs2.py as necessary."
-### Step 2: Generate Dataset Using Data Features
-
-Transition to the dataset folder and utilize the data features to produce a dataset.
-
-Example usage:
-```bash
-python batch_get_series_feature.py -in "Your data feature Folder" -out "The destination folder of your output" -script get_series_feature.py -num 10 -old_ext "The data format of your data feature" -new_ext ".set" -w "num_dependent"
-```
-Alternative example:
-```bash
-python batch_get_series_feature.py -in Test -out Series11\ProtTrans\Test -script get_series_feature.py -num 10 -old_ext ".porttrans" -new_ext ".set" -w 5
+conda env create -n MCNN_DNA_Pred -f environment.yml
 ```
 
-### Step 3: Execute Prediction
+### Step 2: Download the GitHub Repository and Dataset
 
-Navigate to the code folder to execute the prediction.
-
-Command-line usage:
+Clone the GitHub repository using the following command:
 ```bash
-python main.py -d "ProtTrans" -n_dep 5 -n_fil 256 -n_hid 1000 -bs 1024 -ws 2 4 6 8 10 -n_feat 1024 -e 20 -val "independent"
+git clone https://github.com/B1607/DIRP.git
 ```
-Alternatively, utilize the Jupyter notebook:
+Navigate to the repository folder:
 ```bash
-main.ipynb
+cd DIRP
 ```
+Download and extract the dataset:
+```bash
+wget -O ./dataset/ProtTrans.zip http://140.138.155.214/~user4/DIRP/ProtTrans.zip
+unzip ./dataset/ProtTrans.zip
+```
+### Step 3: Start the Prediction !
 
-
+Open the prediction program and enter your protein sequence:
+```bash
+DNA_Prediction.ipynb
+```
