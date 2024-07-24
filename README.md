@@ -24,7 +24,7 @@ Our work not only provides a robust computational tool for characterizing DNA-bi
 ## 
 
 
-## [ 🚀&nbsp;Quick start <a name="quickstart"></a>
+##  🚀&nbsp;Quick start <a name="quickstart"></a>
 
 ### Step 1: Environment Setup
 
