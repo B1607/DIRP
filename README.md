@@ -12,10 +12,11 @@ The primary purpose of this tool is to assist researchers and bioinformaticians 
 ## 📃&nbsp;Dataset <a name="Dataset"></a>
 
 | Dataset        | Protein Sequence | DNA Interacting Residues | Non-Interacting Residues |
+|----------------|------------------|--------------------------|--------------------------|
 | Training data  | 646              | 15636                    | 298503                   |
 | Testing data   | 46               | 965                      | 9911                     |
 | Total          | 692              | 16601                    | 308414                   |
-|----------------|------------------|--------------------------|--------------------------|
+
 
 
 
