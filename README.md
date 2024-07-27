@@ -56,6 +56,7 @@ DNA_Prediction.ipynb
 
 ## 💻&nbsp;Prediction from colab <a name="colab"></a>
 We also provide a colab notebook for the DNA Interacting Residue Prediction from protein sequence.
+
 [<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/drive/1vNAAfziLS5XYl4zm-uEZD1L28pr_rNbU?usp=sharing)
 
 ## 💡&nbsp;MCNN Training <a name="train"></a>
