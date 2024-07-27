@@ -1,15 +1,10 @@
 # Deciphering the Language of Protein-DNA Interactions:<br> A Deep Learning Approach Combining Contextual Embeddings and Multi-Scale Sequence Modeling
-|[ 🧬&nbsp;Abstract](#abstract) |[📃&nbsp;Dataset](#Dataset) |[ 🚀&nbsp;Quick Start](#quickstart) | [ 💻&nbsp;Prediction from colab](#colab)| [ 💡&nbsp;MCNN Training](#train)|[ 💾&nbsp;Requirements](#Requirements)|[ 📚&nbsp;License](#License)|
+|[ 🧬&nbsp;Overview](#Overview) |[📃&nbsp;Dataset](#Dataset) |[ 🚀&nbsp;Quick Start](#quickstart) | [ 💻&nbsp;Prediction from colab](#colab)| [ 💡&nbsp;MCNN Training](#train)|[ 💾&nbsp;Requirements](#Requirements)|[ 📚&nbsp;License](#License)|
 |-------------------------------|-----------------------------|------------------------------------|------------------------------------------|---------------------------------|---------------------|---------------|
-## 🧬&nbsp;Abstract <a name="abstract"></a>
-Deciphering the mechanisms governing protein-DNA interactions is crucial for understanding key cellular processes and disease pathways. In this work, we present a powerful deep learning approach that significantly advances the computational prediction of DNA-interacting residues from protein sequences.
-
-Our method leverages the rich contextual representations learned by pre-trained protein language models, such as ProtTrans, to capture intrinsic biochemical properties and sequence motifs indicative of DNA binding sites. We then integrate these contextual embeddings with a multi-window convolutional neural network architecture, which scans across the sequence at varying window sizes to effectively identify both local and global binding patterns.
-
-Comprehensive evaluation on curated benchmark datasets demonstrates the remarkable performance of our approach, achieving an area under the ROC-AUC of 0.89 and a PR-AUC of 0.57- substantial improvements over previous state-of-the-art sequence-based predictors. This showcases the immense potential of pairing advanced representation learning and deep neural network designs for uncovering the complex syntax governing protein-DNA interactions directly from primary sequences.
-
-Our work not only provides a robust computational tool for characterizing DNA-binding mechanisms, but also highlights the transformative opportunities at the intersection of language modeling, deep learning, and protein sequence analysis. The publicly available code and data further facilitate broader adoption and continued development of these techniques for accelerating mechanistic insights into vital biological processes and disease pathways.
-
+## 🧬&nbsp;Overview <a name="Overview"></a>
+This project implements a deep learning model to predict DNA interacting residues from amino acid sequences. It uses a pre-trained model based on the ProtTrans architecture to generate embeddings for protein sequences and then predicts which residues are likely to interact with DNA.
+<br>
+The main purpose of this tool is to assist researchers and bioinformaticians in identifying potential DNA binding sites in protein sequences. This can be valuable for understanding protein-DNA interactions, which play crucial roles in various biological processes such as gene regulation, DNA repair, and replication.
    
 <br>
 
