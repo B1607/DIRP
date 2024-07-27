@@ -1,7 +1,7 @@
 # Deciphering the Language of Protein-DNA Interactions:<br> A Deep Learning Approach Combining Contextual Embeddings and Multi-Scale Sequence Modeling
-
-
-## Abstract <a name="abstract"></a>
+|[ 🧬&nbsp;Abstract](#abstract) |[ 🚀&nbsp;Quick Start](#quickstart) | [ 💻&nbsp;Prediction from colab](#colab)| [ 💡&nbsp;MCNN Training](#train)|
+|-------------|-----------------------|-----------------------|-----|
+## 🧬&nbsp;Abstract <a name="abstract"></a>
 Deciphering the mechanisms governing protein-DNA interactions is crucial for understanding key cellular processes and disease pathways. In this work, we present a powerful deep learning approach that significantly advances the computational prediction of DNA-interacting residues from protein sequences.
 
 Our method leverages the rich contextual representations learned by pre-trained protein language models, such as ProtTrans, to capture intrinsic biochemical properties and sequence motifs indicative of DNA binding sites. We then integrate these contextual embeddings with a multi-window convolutional neural network architecture, which scans across the sequence at varying window sizes to effectively identify both local and global binding patterns.
@@ -60,6 +60,12 @@ Open the prediction program and enter your protein sequence:
 ```bash
 DNA_Prediction.ipynb
 ```
+
+## 💻&nbsp;Prediction from colab <a name="colab"></a>
+
+[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/drive/1vNAAfziLS5XYl4zm-uEZD1L28pr_rNbU?usp=sharing)
+
+## 💡&nbsp;MCNN Training <a name="train"></a>
 
 ## Requirements <a name="requirement"></a>
 ```bash
