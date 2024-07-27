@@ -1,5 +1,5 @@
 # Deciphering the Language of Protein-DNA Interactions:<br> A Deep Learning Approach Combining Contextual Embeddings and Multi-Scale Sequence Modeling
-|[ 🧬&nbsp;Abstract](#abstract) |📃&nbsp;Dataset](#Dataset) |[ 🚀&nbsp;Quick Start](#quickstart) | [ 💻&nbsp;Prediction from colab](#colab)| [ 💡&nbsp;MCNN Training](#train)|
+|[ 🧬&nbsp;Abstract](#abstract) |[📃&nbsp;Dataset](#Dataset) |[ 🚀&nbsp;Quick Start](#quickstart) | [ 💻&nbsp;Prediction from colab](#colab)| [ 💡&nbsp;MCNN Training](#train)|
 |-------------|-----------------|------|-----------------------|-----|
 ## 🧬&nbsp;Abstract <a name="abstract"></a>
 Deciphering the mechanisms governing protein-DNA interactions is crucial for understanding key cellular processes and disease pathways. In this work, we present a powerful deep learning approach that significantly advances the computational prediction of DNA-interacting residues from protein sequences.
