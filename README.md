@@ -15,7 +15,7 @@ The primary purpose of this tool is to assist researchers and bioinformaticians 
 | Training data  | 646              | 15636                    | 298503                   |
 | Testing data   | 46               | 965                      | 9911                     |
 | Total          | 692              | 16601                    | 308414                   |
-
+|----------------|------------------|--------------------------|--------------------------|
 
 
 
