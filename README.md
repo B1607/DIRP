@@ -53,9 +53,12 @@ Open the prediction program
 ```bash
 DNA_Prediction.ipynb
 ```
-follow the description to excute the program cell
-input your protein sequence. For example:MHHHHHHSSGRENLYFQGSNKKRKRCGVCVPCLRKEPCGACYNCVNRSTSHQICKMRKCEQLKKKRVVPMKG
-After submit the sequence, The script will process the sequence and output predictions for each residue.
+Follow the instructions to execute the program cells and input your protein sequence.
+<br>For example: 
+```bash
+MHHHHHHSSGRENLYFQGSNKKRKRCGVCVPCLRKEPCGACYNCVNRSTSHQICKMRKCEQLKKKRVVPMKG.
+```
+<br>After submitting the sequence, the script will process it and output predictions for each residue.
 
 ```
 ## Example Output
