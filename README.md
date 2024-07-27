@@ -1,5 +1,5 @@
 # Deciphering the Language of Protein-DNA Interactions:<br> A Deep Learning Approach Combining Contextual Embeddings and Multi-Scale Sequence Modeling
-|[ 🧬&nbsp;Overview](#Overview) |[📃&nbsp;Dataset](#Dataset) |[ 🚀&nbsp;Quick Start](#quickstart) | [ 💻&nbsp;Prediction from colab](#colab)| [ 💡&nbsp;MCNN Training](#train)|[ 💾&nbsp;Requirements](#Requirements)|[ 📚&nbsp;License](#License)|
+|[ 🧬&nbsp;Overview](#Overview) |[📃&nbsp;Dataset](#Dataset) |[ 🚀&nbsp;Quick Start](#quickstart) | [ 💻&nbsp;Prediction With Colab](#colab)| [ 💡&nbsp;MCNN Training](#train)|[ 💾&nbsp;Requirements](#Requirements)|[ 📚&nbsp;License](#License)|
 |-------------------------------|-----------------------------|------------------------------------|------------------------------------------|---------------------------------|---------------------|---------------|
 ## 🧬&nbsp;Overview <a name="Overview"></a>
 This project implements a deep learning model to predict DNA-interacting residues from amino acid sequences. Utilizing a pre-trained ProtTrans model, it generates embeddings for protein sequences and predicts which residues are likely to interact with DNA.
@@ -64,7 +64,7 @@ Prediction:  0000000000000000000111111000000111000000000000011111000011110000000
 ```
 
 
-## 💻&nbsp;Prediction from colab <a name="colab"></a>
+## 💻&nbsp;Prediction With Colab <a name="colab"></a>
 We also provide a colab notebook for the DNA Interacting Residue Prediction from protein sequence.
 
 [<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/drive/1vNAAfziLS5XYl4zm-uEZD1L28pr_rNbU?usp=sharing)
