@@ -14,7 +14,7 @@ Our work not only provides a robust computational tool for characterizing DNA-bi
 <br>
 
 ![workflow](https://github.com/B1607/DIRP/blob/226a6de582f96e115c0fff30b3fd2fe4dce60ca7/other/Figure.jpg)
-## Dataset <a name="Dataset"></a>
+## 📃&nbsp;Dataset <a name="Dataset"></a>
 
 | Dataset        | Protein Sequence | DNA Interacting Residues | Non-Interacting Residues |
 |----------------|------------------|--------------------------|--------------------------|
@@ -47,12 +47,25 @@ Navigate to the repository folder:
 ```bash
 cd DIRP
 ```
-### Step 3: Start the Prediction !
+### Step 3: Open the Notebook and Start the Prediction !
 
-Open the prediction program and enter your protein sequence:
+Open the prediction program
 ```bash
 DNA_Prediction.ipynb
 ```
+follow the description to excute the program cell
+input your protein sequence. For example:MHHHHHHSSGRENLYFQGSNKKRKRCGVCVPCLRKEPCGACYNCVNRSTSHQICKMRKCEQLKKKRVVPMKG
+After submit the sequence, The script will process the sequence and output predictions for each residue.
+
+```
+## Example Output
+Amino acid:  MHHHHHHSSGRENLYFQGSNKKRKRCGVCVPCLRKEPCGACYNCVNRSTSHQICKMRKCEQLKKKRVVPMKG
+Prediction:  000000000000000000011111100000011100000000000001111100001111000000000000
+
+1 indicates the amino acid is predicted to be a DNA interacting residue.
+0 indicates the amino acid is predicted to be a non-DNA interacting residue.
+```
+
 
 ## 💻&nbsp;Prediction from colab <a name="colab"></a>
 We also provide a colab notebook for the DNA Interacting Residue Prediction from protein sequence.
