@@ -58,7 +58,7 @@ Follow the instructions to execute the program cells and input your protein sequ
 ```bash
 MHHHHHHSSGRENLYFQGSNKKRKRCGVCVPCLRKEPCGACYNCVNRSTSHQICKMRKCEQLKKKRVVPMKG.
 ```
-<br>After submitting the sequence, the script will first convert it into ProtTrans embeddings and then make predictions for each residue.
+After submitting the sequence, the script will first convert it into ProtTrans embeddings and then make predictions for each residue.
 ```
 ## Example Output
 Amino acid:  MHHHHHHSSGRENLYFQGSNKKRKRCGVCVPCLRKEPCGACYNCVNRSTSHQICKMRKCEQLKKKRVVPMKG
