@@ -37,6 +37,39 @@ Activate the conda environment
 ```bash
 conda activate MCNN_DNA_Pred
 ```
+### Step 2: Download the GitHub Repository
+
+Clone the GitHub repository using the following command:
+```bash
+git clone https://github.com/B1607/DIRP.git
+```
+Navigate to the repository folder:
+```bash
+cd DIRP
+```
+### Step 3: Start the Prediction !
+
+Open the prediction program and enter your protein sequence:
+```bash
+DNA_Prediction.ipynb
+```
+
+## 💻&nbsp;Prediction from colab <a name="colab"></a>
+We also provide a colab notebook for the DNA Interacting Residue Prediction from protein sequence.
+[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/drive/1vNAAfziLS5XYl4zm-uEZD1L28pr_rNbU?usp=sharing)
+
+## 💡&nbsp;MCNN Training <a name="train"></a>
+
+### Step 1: Environment Setup
+
+We recommend using Anaconda to manage the project environment. You can create the necessary environment using the following command:
+```bash
+conda env create -n MCNN_DNA_Pred -f environment.yml
+```
+Activate the conda environment
+```bash
+conda activate MCNN_DNA_Pred
+```
 ### Step 2: Download the GitHub Repository and Dataset
 
 Clone the GitHub repository using the following command:
@@ -54,18 +87,34 @@ wget -O ./dataset/ProtTrans.zip http://140.138.155.214/~user4/DIRP/ProtTrans.zip
 ```bash
 unzip ./dataset/ProtTrans.zip
 ```
-### Step 3: Start the Prediction !
-
-Open the prediction program and enter your protein sequence:
+### Step 3: Navigate to the "code" folder
 ```bash
-DNA_Prediction.ipynb
+cd DIRP
 ```
+### Step 4: Run the Training code
+```bash
+python MCNN_npy.py
 
-## 💻&nbsp;Prediction from colab <a name="colab"></a>
+"""
+you can also change the arguments to training model by your self
+-n_fil , --num_filter
+      The number of filters in the convolutional layer.
+-n_hid , --num_hidden
+      The number of hidden units in the dense layer.
+-bs , --batch_size
+      The batch size for training the model.
+-ws , --window_sizes
+      The window sizes for convolutional filters.
+-vm , --validation_mode
+      The validation mode. Options are 'cross', 'independent'.
+-d , --data_type,
+      The type of data. Options are 'ProtTrans', 'tape', 'esm2'
+-n_feat , --num_feature
+      The number of data feature dimensions. 1024 for ProtTrans, 768 for tape, 1280 for esm2.
+-length , --n_length
+```
+      
 
-[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/drive/1vNAAfziLS5XYl4zm-uEZD1L28pr_rNbU?usp=sharing)
-
-## 💡&nbsp;MCNN Training <a name="train"></a>
 
 ## Requirements <a name="requirement"></a>
 ```bash
