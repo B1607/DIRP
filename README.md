@@ -2,9 +2,9 @@
 |[ 🧬&nbsp;Overview](#Overview) |[📃&nbsp;Dataset](#Dataset) |[ 🚀&nbsp;Quick Start](#quickstart) | [ 💻&nbsp;Prediction from colab](#colab)| [ 💡&nbsp;MCNN Training](#train)|[ 💾&nbsp;Requirements](#Requirements)|[ 📚&nbsp;License](#License)|
 |-------------------------------|-----------------------------|------------------------------------|------------------------------------------|---------------------------------|---------------------|---------------|
 ## 🧬&nbsp;Overview <a name="Overview"></a>
-This project implements a deep learning model to predict DNA interacting residues from amino acid sequences. It uses a pre-trained model based on the ProtTrans architecture to generate embeddings for protein sequences and then predicts which residues are likely to interact with DNA.
-<br>
-The main purpose of this tool is to assist researchers and bioinformaticians in identifying potential DNA binding sites in protein sequences. This can be valuable for understanding protein-DNA interactions, which play crucial roles in various biological processes such as gene regulation, DNA repair, and replication.
+This project implements a deep learning model to predict DNA-interacting residues from amino acid sequences. Utilizing a pre-trained ProtTrans model, it generates embeddings for protein sequences and predicts which residues are likely to interact with DNA.
+
+The primary purpose of this tool is to assist researchers and bioinformaticians in identifying potential DNA binding sites in protein sequences. This is valuable for understanding protein-DNA interactions, which are crucial in various biological processes such as gene regulation, DNA repair, and replication.
    
 <br>
 
