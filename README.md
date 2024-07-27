@@ -113,6 +113,7 @@ you can also change the arguments to training model by your self
 -n_feat , --num_feature
       The number of data feature dimensions. 1024 for ProtTrans, 768 for tape, 1280 for esm2.
 -length , --n_length
+      The length of the input sequence in residues (amino acids).
 ```
       
 
