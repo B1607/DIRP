@@ -94,8 +94,6 @@ cd DIRP
 Download and extract the dataset:
 ```bash
 wget -O ./dataset/ProtTrans.zip http://140.138.155.214/~user4/DIRP/ProtTrans.zip
-```
-```bash
 unzip ./dataset/ProtTrans.zip
 ```
 ### Step 3: Navigate to the "code" folder
