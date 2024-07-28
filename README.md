@@ -104,7 +104,6 @@ cd DIRP
 ```bash
 python MCNN_npy.py
 
-"""
 you can also change the arguments to training model by your self
 -n_fil , --num_filter
       The number of filters in the convolutional layer.
