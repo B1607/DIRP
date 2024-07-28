@@ -103,7 +103,7 @@ cd DIRP
 ### Step 4: Run the Training code
 ```bash
 python MCNN_npy.py
-
+"""
 you can also change the arguments to training model by your self
 -n_fil , --num_filter
       The number of filters in the convolutional layer.
@@ -121,6 +121,7 @@ you can also change the arguments to training model by your self
       The number of data feature dimensions. 1024 for ProtTrans, 768 for tape, 1280 for esm2.
 -length , --n_length
       The length of the input sequence in residues (amino acids).
+"""
 ```
       
 
