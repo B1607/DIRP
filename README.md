@@ -1,5 +1,5 @@
 # Deciphering the Language of Protein-DNA Interactions:<br> A Deep Learning Approach Combining Contextual Embeddings and Multi-Scale Sequence Modeling
-|[ 🧬&nbsp;Overview](#Overview) |[📃&nbsp;Dataset](#Dataset) |[ 🚀&nbsp;Quick Start](#quickstart) | [ 💻&nbsp;Prediction With Colab](#colab)| [ 💡&nbsp;MCNN Training](#train)|[ 💾&nbsp;Requirements](#Requirements)|[ 📚&nbsp;License](#License)|
+|[ 🧬&nbsp;Overview](#Overview) |[📃&nbsp;Dataset](#Dataset) | [ 💻&nbsp;Prediction With Colab](#colab)|[ 🚀&nbsp;Quick Start](#quickstart) | [ 💡&nbsp;MCNN Training](#train)|[ 💾&nbsp;Requirements](#Requirements)|[ 📚&nbsp;License](#License)|
 |-------------------------------|-----------------------------|------------------------------------|------------------------------------------|---------------------------------|---------------------|---------------|
 ## 🧬&nbsp;Overview <a name="Overview"></a>
 This project implements a deep learning model to predict DNA-interacting residues from amino acid sequences. Utilizing a pre-trained ProtTrans model, it generates embeddings for protein sequences and predicts which residues are likely to interact with DNA.
@@ -18,7 +18,30 @@ The primary purpose of this tool is to assist researchers and bioinformaticians 
 | Total          | 692              | 16601                    | 308414                   |
 
 
+## 💻&nbsp;Prediction With Colab <a name="colab"></a>
+We provide a colab notebook for the DNA Interacting Residue Prediction from protein sequence.
 
+[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/drive/1vNAAfziLS5XYl4zm-uEZD1L28pr_rNbU?usp=sharing)
+
+with it you can be prediction more easily and convenience
+
+### Step 1: Environment Setup
+open the link of github and Change runtime type to other device not CPU
+
+### Step 2: Excute the program
+this colab notebook will import all needy dependency and download the needy file automaticlly
+
+### Step 3: Submit your fasta file and wait for the Prediction result !
+you can upload the fasta on your own, or try our validation dataset with 46 sequence
+
+and the result will be like
+```bash
+Fasta     :  >4JBM0
+Amino acid:  MDPLVVTVLKAINPFECETQEGRQEIFHATVATETDFFFVKVLNAQFKDKFIPKRTIKISNYLWHSNFMEVTSSSVVVDVESNHEVPNNVVKRARETPRISKLKIQPCGTIVNGLFKVQKITEEKDRVLYGIHDKTGTMEVLVLGNPSKTKCEEGDKIRLTFFEVSKNGVKIQLKSGPCSFFKVIKAAKPKTD
+Prediction:  0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100110111000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000
+```
+1 indicates the amino acid is predicted to be a DNA interacting residue.
+0 indicates the amino acid is predicted to be a non-DNA interacting residue.
 
 ##  🚀&nbsp;Quick start <a name="quickstart"></a>
 
@@ -62,12 +85,6 @@ Prediction:  0000000000000000000111111000000111000000000000011111000011110000000
 1 indicates the amino acid is predicted to be a DNA interacting residue.
 0 indicates the amino acid is predicted to be a non-DNA interacting residue.
 ```
-
-
-## 💻&nbsp;Prediction With Colab <a name="colab"></a>
-We also provide a colab notebook for the DNA Interacting Residue Prediction from protein sequence.
-
-[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/drive/1vNAAfziLS5XYl4zm-uEZD1L28pr_rNbU?usp=sharing)
 
 ## 💡&nbsp;MCNN Training <a name="train"></a>
 
