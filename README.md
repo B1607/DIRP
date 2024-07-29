@@ -1,5 +1,5 @@
 # Deciphering the Language of Protein-DNA Interactions:<br> A Deep Learning Approach Combining Contextual Embeddings and Multi-Scale Sequence Modeling
-|[ 🧬&nbsp;Overview](#Overview) |[📃&nbsp;Dataset](#Dataset) | [ 💻&nbsp;Prediction With Colab](#colab)|[ 🚀&nbsp;Quick Start](#quickstart) | [ 💡&nbsp;MCNN Training](#train)|[ 💾&nbsp;Requirements](#Requirements)|[ 📚&nbsp;License](#License)|
+|[ 🧬&nbsp;Overview](#Overview) |[📃&nbsp;Dataset](#Dataset) | [ 🚀&nbsp;Quick Prediction With Colab](#colab)|[ 💻&nbsp;Local Prediction](#LocalPrediction) | [ 💡&nbsp;MCNN Training](#train)|[ 💾&nbsp;Requirements](#Requirements)|[ 📚&nbsp;License](#License)|
 |-------------------------------|-----------------------------|------------------------------------|------------------------------------------|---------------------------------|---------------------|---------------|
 ## 🧬&nbsp;Overview <a name="Overview"></a>
 This project implements a deep learning model to predict DNA-interacting residues from amino acid sequences. Utilizing a pre-trained ProtTrans model, it generates embeddings for protein sequences and predicts which residues are likely to interact with DNA.
@@ -18,7 +18,7 @@ The primary purpose of this tool is to assist researchers and bioinformaticians 
 | Total          | 692              | 16601                    | 308414                   |
 
 
-## 💻&nbsp;Prediction With Colab <a name="colab"></a>
+## 🚀&nbsp;Quick Prediction With Colab <a name="colab"></a>
 We provide a colab notebook for the DNA Interacting Residue Prediction based on protein sequences. With it, you can predict the DNA Interacting Residues more easily and conveniently.
 
 [<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/drive/1vNAAfziLS5XYl4zm-uEZD1L28pr_rNbU?usp=sharing)
@@ -42,7 +42,7 @@ Prediction:  0000000000000000000000000000000000000000000000000000000000000000000
 1 indicates the amino acid is predicted to be a DNA interacting residue.<br>
 0 indicates the amino acid is predicted to be a non-DNA interacting residue.
 
-##  🚀&nbsp;Quick start <a name="quickstart"></a>
+##  💻&nbsp;Local Prediction <a name="LocalPrediction"></a>
 
 ### Step 1: Environment Setup
 
