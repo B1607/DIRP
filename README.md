@@ -31,7 +31,7 @@ open the link of colab notebook and change the runtime type to a device other th
 This Colab notebook will automatically import all necessary dependencies and download the required files.
 
 ### Step 3: Submit your fasta file and wait for the Prediction result !
-You can upload your own FASTA file or use our validation dataset containing 46 sequences. [⬇️link](https://github.com/B1607/DIRP/blob/main/colab/validation.fasta)
+You can upload your own FASTA file or use our validation dataset which containing 46 sequences. [⬇️link](https://github.com/B1607/DIRP/blob/main/colab/validation.fasta)
 
 The result will be formatted as follows:
 ```bash
