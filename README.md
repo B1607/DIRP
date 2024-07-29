@@ -19,28 +19,27 @@ The primary purpose of this tool is to assist researchers and bioinformaticians 
 
 
 ## 💻&nbsp;Prediction With Colab <a name="colab"></a>
-We provide a colab notebook for the DNA Interacting Residue Prediction from protein sequence.
+We provide a colab notebook for the DNA Interacting Residue Prediction based on protein sequences. With it, you can predict the DNA Interacting Residues more easily and conveniently.
 
 [<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/drive/1vNAAfziLS5XYl4zm-uEZD1L28pr_rNbU?usp=sharing)
 
-with it you can be prediction more easily and convenience
 
 ### Step 1: Environment Setup
-open the link of github and Change runtime type to other device not CPU
+open the link of colab notebook and change the runtime type to a device other than CPU.
 
 ### Step 2: Excute the program
-this colab notebook will import all needy dependency and download the needy file automaticlly
+This Colab notebook will automatically import all necessary dependencies and download the required files.
 
 ### Step 3: Submit your fasta file and wait for the Prediction result !
-you can upload the fasta on your own, or try our validation dataset with 46 sequence
+You can upload your own FASTA file or use our validation dataset containing 46 sequences.
 
-and the result will be like
+The result will be formatted as follows:
 ```bash
 Fasta     :  >4JBM0
 Amino acid:  MDPLVVTVLKAINPFECETQEGRQEIFHATVATETDFFFVKVLNAQFKDKFIPKRTIKISNYLWHSNFMEVTSSSVVVDVESNHEVPNNVVKRARETPRISKLKIQPCGTIVNGLFKVQKITEEKDRVLYGIHDKTGTMEVLVLGNPSKTKCEEGDKIRLTFFEVSKNGVKIQLKSGPCSFFKVIKAAKPKTD
 Prediction:  0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100110111000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000
 ```
-1 indicates the amino acid is predicted to be a DNA interacting residue.
+1 indicates the amino acid is predicted to be a DNA interacting residue.<br>
 0 indicates the amino acid is predicted to be a non-DNA interacting residue.
 
 ##  🚀&nbsp;Quick start <a name="quickstart"></a>
